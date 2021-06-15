@@ -6,7 +6,7 @@ from selenium import webdriver
 import time
 import math
 from datetime import timedelta
-from csgoscraper.csgodataclasses.csgodataclasses import *
+from csgodataclasses.csgodataclasses import *
 from selenium.webdriver.remote.webelement import WebElement
 
 config = None

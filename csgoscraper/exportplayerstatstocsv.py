@@ -1,10 +1,11 @@
 import pickle
-from csgoscraper.csgodataclasses.csgodataclasses import *
+from csgodataclasses.csgodataclasses import *
 import yaml
 import csv
 
 
 config = None
+
 
 def load_config():
     print("Loading config")
@@ -25,9 +26,6 @@ def get_my_data(matches):
     my_data = []
 
     for match in matches:
-        # players = [team.players for team in match.teams]
-        # print(players)
-
         found = False
         for team in match.teams:
             if found:

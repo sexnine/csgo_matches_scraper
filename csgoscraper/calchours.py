@@ -1,5 +1,6 @@
 import pickle
-from csgoscraper.csgodataclasses.csgodataclasses import *
+from csgodataclasses.csgodataclasses import *
+
 
 def calculate_total_time(matches: list, match_type: str) -> int:
     total_time = 0
